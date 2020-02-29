@@ -1,13 +1,18 @@
 Package: LinAlg4
-Title: What the Package Does (One Line, Title Case)
+Title: Make Linear Algebra easier
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+    person(given = "Lucas",
+           family = "Bagge",
+           email = "lucasbagge@hotmail.com",
+           role = c("aut", "cre"))
+Description: There is not a good package avaiable to make calculatoin for linear algebra.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.0.2
+Imports: 
+    dplyr,
+    testthat,
+    tidyr,
+    magrittr
