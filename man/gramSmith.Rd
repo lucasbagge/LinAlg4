@@ -4,12 +4,14 @@
 \alias{gramSmith}
 \title{Gram-Smidth process in r}
 \usage{
-gramSmith(x1, x2)
+gramSmith(x1, x2, x3)
 }
 \arguments{
 \item{x1}{The first vector.}
 
 \item{x2}{The second vector.}
+
+\item{x3}{The third vector.}
 }
 \value{
 Should give us a number.
