@@ -31,3 +31,7 @@ gramSmith <- function(x1,x2,x3){
     return(cbind(v1,v2,v3))
   }
 }
+x1 <- matrix_create(c(1,1,1,1),4,1)
+x2 <- matrix_create(c(0,1,1,1), 4, 1)
+x3 <- matrix_create(c(0,0,1,1), 4, 1)
+gramSmith(x1,x2,x3)
